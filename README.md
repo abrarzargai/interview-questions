@@ -10,7 +10,7 @@
 - What is the purpose of the `use strict` directive in JavaScript?
 - How does the try, catch, finally block work in JavaScript?
 - difference between Function Expression, Function decleration and anonymous Function
-- variable shadowing
+- variable shadowing and Temporal Dead Zone
 - Explain the concept of callback functions and provide an example.
 - What are IIFE (Immediately Invoked Function Expressions), and why are they used?
 - How do you compare two objects for equality in JavaScript?
