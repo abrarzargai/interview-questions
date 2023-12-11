@@ -28,7 +28,6 @@
 - Discuss the differences between the addEventListener and onclick event handling approaches.
 - How does the bind method work in JavaScript?
 - Explain the concept of the arguments object in functions.
-- What is the purpose of the debounce function, and when would you use it?
 - Discuss the benefits and drawbacks of using anonymous functions.
 - What does `this` refer to in JavaScript? Can you provide an example of how working with `this` has changed in ES6?
 - Explain the concepts of throttling and debouncing. What problems do they solve, and what is the core difference between them?
