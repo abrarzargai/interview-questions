@@ -2,11 +2,11 @@
 
 ## JavaScript Basics
 
-- 🚧 Explain the difference between null, undefined, and undeclared variables. How would you check for any of these states?
-- 🚧 What is hoisting in JavaScript?
-- 🚧 Define a closure, and explain how and why you would use one.
-- 🚧 How does prototypal inheritance work in JavaScript?
-- 🚧 Explain the difference between mutable and immutable objects. Provide an example of an immutable object in JavaScript.
+- Explain the difference between null, undefined, and undeclared variables. How would you check for any of these states?
+- What is hoisting in JavaScript?
+- Define a closure, and explain how and why you would use one.
+- How does prototypal inheritance work in JavaScript?
+- Explain the difference between mutable and immutable objects. Provide an example of an immutable object in JavaScript.
 - What is the purpose of the `use strict` directive in JavaScript?
 - How does the try, catch, finally block work in JavaScript?
 - difference between Function Expression, Function decleration and anonymous Function
