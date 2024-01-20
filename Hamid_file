@@ -7,4 +7,15 @@
 7. what is the use of weakmap obj in js?
 8. what is draw back of creating true private method in js?
 9. why is `this ` operator inconsistent in js?
-10.  what is currying in js?
+11. permitive  vs non permitive
+10. what is currying in js?
+
+12. React.memo vs. useMemo: Major differences and use cases
+13. Type of execution in js
+14. we can use multiple store in app
+15. find vs filter 
+1.  memory heap
+17. what is component and what is jsx 
+13. call stack , memory heap.
+14. what is component , what is pure  component
+15 for each vs map. find vs filter 
