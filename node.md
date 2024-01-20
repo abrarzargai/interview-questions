@@ -1,22 +1,22 @@
+
+
 ## How does Node.js work?
 
  Node.js utilizes the V8 JavaScript engine, employing a single-threaded event loop for asynchronous, non-blocking I/O. Its event-driven architecture and callback functions enable efficient concurrency. Asynchronous operations, such as file reads or network requests, don't block the main thread, allowing Node.js to handle multiple tasks concurrently. The module system and npm facilitate code organization and package management, making it a popular choice for server-side JavaScript development.
 
 Here's a simple example of a Node.js server:    
 
-    ```bash
-const http = require('http');
+         const http = require('http');
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello, World!\n');
-});
+         const server = http.createServer((req, res) => {
+         res.writeHead(200, {'Content-Type': 'text/plain'});
+         res.end('Hello, World!\n');
+         });
 
-server.listen(3000, '127.0.0.1', () => {
-  console.log('Server listening on port 3000');
-});
+         server.listen(3000, '127.0.0.1', () => {
+         console.log('Server listening on port 3000');
+         });
 
-```
   in this example, a basic HTTP server is created using the http module, and it listens on port 3000. When a request is received, it responds with "Hello, World!".
 
 ## Why is Node.js Single-threaded?
@@ -42,7 +42,7 @@ It's important to note that while the main event loop is single-threaded, Node.j
 
 
 
-## 5. If Node.js is single-threaded, then how does it handle concurrency?
+##  If Node.js is single-threaded, then how does it handle concurrency?
 
 The Multi-Threaded Request/Response Stateless Model is not followed by the Node JS Platform, and it adheres to the Single-Threaded Event Loop Model.
 The Node JS Processing paradigm is heavily influenced by the JavaScript Event-based model and the JavaScript callback system.
@@ -77,5 +77,7 @@ Being an asynchronous platform, Node.js heavily relies on callback. All APIs of 
    * Microservices architecture
 
 ##  What is NPM?
+
+
    NPM (Node Package Manager) is a command-line tool for managing Node.js packages, facilitating dependency management and package installation. It is the default package manager for Node.js and provides a vast registry of reusable JavaScript code modules for developers. NPM is integral to the Node.js ecosystem for building, sharing, and maintaining projects.
 
