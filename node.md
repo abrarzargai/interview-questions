@@ -81,3 +81,10 @@ Being an asynchronous platform, Node.js heavily relies on callback. All APIs of 
 
    NPM (Node Package Manager) is a command-line tool for managing Node.js packages, facilitating dependency management and package installation. It is the default package manager for Node.js and provides a vast registry of reusable JavaScript code modules for developers. NPM is integral to the Node.js ecosystem for building, sharing, and maintaining projects.
 
+##  What is the difference between setImmediate() and setTimeout()?
+
+The setTimeout() method schedules code execution after a specified delay, measured in milliseconds. On the other hand, the setImmediate()
+method schedules code execution to occur immediately after the current event loop iteration completes. T
+his means that setImmediate() has a higher priority than setTimeout().
+
+####                                           Nest Js Questions 
