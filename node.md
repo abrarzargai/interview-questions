@@ -89,3 +89,17 @@ his means that setImmediate() has a higher priority than setTimeout().
 ## What is NestJS, and why is it popular for building Node.js applications?
 
 NestJS is a TypeScript-based Node.js framework that embraces an Angular-like modular architecture with decorators and dependency injection. It provides a scalable and maintainable approach for building server-side applications, offering a familiar environment for Angular developers. NestJS supports Express.js, offers middleware and interceptors, and has a robust ecosystem with active community support. Its use of TypeScript enhances code quality, early error detection, and collaboration in larger teams, making it popular for building scalable and well-structured Node.js applications.
+
+
+## What is the main difference between NestJS and Express.js?
+
+ - Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. On the other hand, NestJS is a more opinionated framework built on top of Express.js (or Fastify) that provides a high-level abstraction with a lot of built-in decorators and modules, making it easier to organize and scale large applications. NestJS also has a strong emphasis on TypeScript, which is not inherent in Express.js.
+
+ ## How does NestJS promote the use of TypeScript in Node.js development?
+ 
+  - NestJS is built with TypeScript and encourages its use for building backend applications. It takes advantage of TypeScript's strong typing and modern ES/TS features to reduce bugs and improve the quality of code. Moreover, it utilizes decorators, modules, and classes, which are fundamental features of TypeScript, promoting a well-structured and strongly-typed codebase.
+
+
+## Describe the architecture pattern used by NestJS. What are the benefits of this pattern?
+
+ - NestJS utilizes a Monolithic architecture with a modular design inspired by Angular. The architecture promotes a modular structure, dependency injection, and the separation of concerns between controllers and providers. Benefits of this pattern include better code organization, maintainability, testability, and the ability to build scalable and extensible back-end applications. The modular design also allows for powerful abstractions and encapsulation of business logic, aiding in the development of large-scale application
